@@ -5,8 +5,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import ink.girigiri.lib.RetrofitCreator;
-import ink.girigiri.lib.api.RxServerApi;
+import ink.girigiri.cream_cake.RetrofitCreator;
+import ink.girigiri.cream_cake.api.RxServerApi;
 import io.reactivex.Observable;
 import okhttp3.MediaType;
 import okhttp3.MultipartBody;
@@ -28,7 +28,7 @@ public class Uploader {
     public Uploader(String fieldName, File file, HashMap<String, Object> otherParams) {
         this.fieldName = fieldName;
         this.file = file;
-        this.params = params;
+        this.params = otherParams;
     }
 
 

@@ -6,7 +6,7 @@ import com.google.gson.GsonBuilder;
 import java.io.File;
 import java.util.concurrent.TimeUnit;
 
-import ink.girigiri.lib.converter.GsonConverterFactory;
+import ink.girigiri.cream_cake.converter.GsonConverterFactory;
 import okhttp3.Cache;
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;

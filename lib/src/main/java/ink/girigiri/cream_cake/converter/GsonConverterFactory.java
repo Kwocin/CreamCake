@@ -24,7 +24,7 @@ import java.lang.annotation.Annotation;
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
 
-import ink.girigiri.lib.BaseResponse;
+import ink.girigiri.cream_cake.BaseResponse;
 import okhttp3.RequestBody;
 import okhttp3.ResponseBody;
 import retrofit2.Converter;

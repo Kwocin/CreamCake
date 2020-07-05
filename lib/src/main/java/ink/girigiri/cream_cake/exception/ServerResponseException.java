@@ -1,7 +1,7 @@
 package ink.girigiri.cream_cake.exception;
 
 
-import ink.girigiri.lib.HttpConfig;
+import ink.girigiri.cream_cake.HttpConfig;
 
 /**
  * 服务器返回的异常

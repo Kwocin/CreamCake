@@ -9,8 +9,8 @@ import java.net.ConnectException;
 import java.net.UnknownHostException;
 import java.text.ParseException;
 
-import ink.girigiri.lib.exception.NoDataExceptionException;
-import ink.girigiri.lib.exception.ServerResponseException;
+import ink.girigiri.cream_cake.exception.NoDataExceptionException;
+import ink.girigiri.cream_cake.exception.ServerResponseException;
 import io.reactivex.Observer;
 import io.reactivex.disposables.Disposable;
 import retrofit2.HttpException;

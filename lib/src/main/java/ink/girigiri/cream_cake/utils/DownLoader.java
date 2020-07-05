@@ -6,8 +6,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.HashMap;
 
-import ink.girigiri.lib.RetrofitCreator;
-import ink.girigiri.lib.api.RxServerApi;
+import ink.girigiri.cream_cake.RetrofitCreator;
+import ink.girigiri.cream_cake.api.RxServerApi;
 import io.reactivex.Observable;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.schedulers.Schedulers;

@@ -20,10 +20,10 @@ import com.google.gson.TypeAdapter;
 
 import java.io.IOException;
 
-import ink.girigiri.lib.BaseResponse;
-import ink.girigiri.lib.HttpConfig;
-import ink.girigiri.lib.exception.NoDataExceptionException;
-import ink.girigiri.lib.exception.ServerResponseException;
+import ink.girigiri.cream_cake.BaseResponse;
+import ink.girigiri.cream_cake.HttpConfig;
+import ink.girigiri.cream_cake.exception.NoDataExceptionException;
+import ink.girigiri.cream_cake.exception.ServerResponseException;
 import okhttp3.ResponseBody;
 import retrofit2.Converter;
 
