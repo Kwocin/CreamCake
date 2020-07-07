@@ -48,7 +48,7 @@ final class GsonResponseBodyConverter<T> implements Converter<ResponseBody, Obje
                     throw new NoDataExceptionException();
                 }
             }  else if (response.getCode() != HttpConfig.getInstance().getErrorCode().SUCCESS) {
-                throw new ServerResponseException(response.getCode(), response.getMessage());
+                throw new ServerResponseException(response.getCode(), response.getMsg());
             }
 
         } finally {
