@@ -68,11 +68,9 @@ public abstract class ResponseObserver<T> implements Observer<T> {
      * 服务器返回数据，但响应码不为200
      *
      */
-    /**
-     * 服务器返回数据，但响应码不为1000
-     */
-    public void onFail(String message) {
 
+    public void onFail(String message) {
+        errorMessage(message);
     }
 
     public void onFinish() {
@@ -81,7 +79,7 @@ public abstract class ResponseObserver<T> implements Observer<T> {
     /**
      * 请求异常
      *
-     * @param reason
+     * @param reason 异常信息
      */
     public void onException(ExceptionReason reason) {
         switch (reason) {
